@@ -28,16 +28,16 @@ The whole process includes the following components:
 ## Model
 
 Two models/model's weight are saved [here](https://drive.google.com/drive/folders/1wqiBd_-5pn3tRm5W27kZlB9wztk41F5U?usp=drive_link)
-1. Bert-based fine-tuning model: [bert_base_21cate](https://drive.google.com/drive/folders/1AI7sttjr67IcwaFA0Z0XHyA8BnSCAOej?usp=drive_link)
-2. Weight of Bert-based join-tuning model: [bert_base_prefix.pt](https://drive.google.com/file/d/1bm-D33-vFT0ArKTxsF1hXAsLXDaXNX-U/view?usp=drive_link)
+1. Bert-based fine-tuning model: [MedDefects-BERT](https://drive.google.com/drive/folders/1AI7sttjr67IcwaFA0Z0XHyA8BnSCAOej?usp=drive_link)
+2. Weight of Bert-based join-tuning model: [MedDefects-DPT-BERT](https://drive.google.com/file/d/1bm-D33-vFT0ArKTxsF1hXAsLXDaXNX-U/view?usp=drive_link)
 
 
 ## Demo for test
 
-Demo code will be provided in this repository.
+Demo code will be provided in this repository by 15 Sep.
 
 
 
 
 # Contact
-If there are any questions, please contact:
+If there are any questions, please contact: vicente.enrique@synapxe.sg
