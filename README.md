@@ -31,8 +31,9 @@ Two models/model's weight are saved [here](https://drive.google.com/drive/folder
 1. Bert-based fine-tuning model: [MedDefects-BERT](https://drive.google.com/drive/folders/1AI7sttjr67IcwaFA0Z0XHyA8BnSCAOej?usp=drive_link)
 2. Weight of Bert-based join-tuning model: [MedDefects-DPT-BERT](https://drive.google.com/file/d/1bm-D33-vFT0ArKTxsF1hXAsLXDaXNX-U/view?usp=drive_link)
 
+** The model is saved in Google Drive, which can be accessed with the same account as this Github account.
 
-## Demo for test
+## Demo for testing
 
 Demo code will be provided in this repository by 15 Sep.
 
