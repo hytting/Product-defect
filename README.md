@@ -5,9 +5,12 @@ This repository contains code and related documents for the Classification Produ
 ## Prerequisites
 
 1. Version of software:
-1) Anaconda version: 2.3.1
-2) Python version: 3.7.15
-3) CUDA version: 11.0.167
+
+Anaconda version: 2.3.1
+
+Python version: 3.7.15
+
+CUDA version: 11.0.167
 
 2. Related packages and their version information contained in libs.txt.
 
