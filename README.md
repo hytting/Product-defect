@@ -23,8 +23,8 @@ The whole process includes the following components:
 ## Model
 
 Two models/model's weight are saved [here](https://drive.google.com/drive/folders/1wqiBd_-5pn3tRm5W27kZlB9wztk41F5U?usp=drive_link)
-1. Bert-based fine-tuning model: bert_base_21epoch
-2. Weight of Bert-based join-tuning model: bert_base_prefix.pt
+1. Bert-based fine-tuning model: [bert_base_21cate](https://drive.google.com/drive/folders/1AI7sttjr67IcwaFA0Z0XHyA8BnSCAOej?usp=drive_link)
+2. Weight of Bert-based join-tuning model: [bert_base_prefix.pt](https://drive.google.com/file/d/1bm-D33-vFT0ArKTxsF1hXAsLXDaXNX-U/view?usp=drive_link)
 
 ## Demo for test
 
