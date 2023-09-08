@@ -1,4 +1,4 @@
-This repository contains code and related documents for the Classification Product Defects paper.
+This is the official repository for the paper "Classification of health product defects by deep learning".
 
 # Getting Started
 
@@ -12,17 +12,19 @@ This repository contains code and related documents for the Classification Produ
 
 - CUDA version: 11.0.167
 
-2. Related packages and their version information are contained in libs.txt.
+2. The packages, dependencis, and version information required to run the provided notebook are included in requirements.txt file.
 
 
 ## Code
 
-The Product_defects_notebook.ipynb file presents the whole pipeline of this project. 
+The Product_defects_notebook.ipynb file contains the full pipeline of this study. 
 
-The whole process includes the following components:
+The pipeline includes the following components:
 1. Data preprocessing
-2. Model training (loading, fine-tuning, and validation)
-3. Explanation of model result 
+2. Model training (loading, fine-tuning, and prompt-tuning)
+3. Model evaluation
+4. Interpretability analyses
+5. Performance analyses 
 
 
 ## Model
@@ -31,11 +33,14 @@ Two models/model's weight are saved [here](https://drive.google.com/drive/folder
 1. Bert-based fine-tuning model: [MedDefects-BERT](https://drive.google.com/drive/folders/1AI7sttjr67IcwaFA0Z0XHyA8BnSCAOej?usp=drive_link)
 2. Weight of Bert-based join-tuning model: [MedDefects-DPT-BERT](https://drive.google.com/file/d/1bm-D33-vFT0ArKTxsF1hXAsLXDaXNX-U/view?usp=drive_link)
 
-** The model is saved in Google Drive, which can be accessed with the same account as this Github account.
+The models weights are stored in Google Drive and can be accessed with the following credentials:
+
+username: med.product.defect@gmail.com
+password: dna1234!@
 
 ## Demo for testing
 
-Demo code will be provided in this repository by 15 Sep.
+A demo script will be provided in this repository by 15 Sep 2023.
 
 
 
