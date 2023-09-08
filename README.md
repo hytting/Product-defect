@@ -17,7 +17,7 @@ This repository contains code and related documents for the Classification Produ
 
 ## Code
 
-The Product_defect_clean_code.ipynb file presents the whole pipeline of this project. 
+The Product_defects_notebook.ipynb file presents the whole pipeline of this project. 
 
 The whole process includes the following components:
 1. Data preprocessing
