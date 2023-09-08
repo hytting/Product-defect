@@ -22,7 +22,7 @@ The whole process includes the following components:
 
 ## Model
 
-Two models/model's weight are saved in this [Google drive url](https://drive.google.com/drive/folders/1wqiBd_-5pn3tRm5W27kZlB9wztk41F5U?usp=drive_link)
+Two models/model's weight are saved [here](https://drive.google.com/drive/folders/1wqiBd_-5pn3tRm5W27kZlB9wztk41F5U?usp=drive_link)
 1. Bert-based fine-tuning model: bert_base_21epoch
 2. Weight of Bert-based join-tuning model: bert_base_prefix.pt
 
