@@ -27,7 +27,7 @@ The whole process includes the following components:
 
 ## Model
 
-Two models/model's weight are saved [here](https://drive.google.com/drive/folders/1wqiBd_-5pn3tRm5W27kZlB9wztk41F5U?usp=drive_link)
+Two models/model's weight are saved [here](https://drive.google.com/drive/folders/1wqiBd_-5pn3tRm5W27kZlB9wztk41F5U?usp=drive_link):
 1. Bert-based fine-tuning model: [MedDefects-BERT](https://drive.google.com/drive/folders/1AI7sttjr67IcwaFA0Z0XHyA8BnSCAOej?usp=drive_link)
 2. Weight of Bert-based join-tuning model: [MedDefects-DPT-BERT](https://drive.google.com/file/d/1bm-D33-vFT0ArKTxsF1hXAsLXDaXNX-U/view?usp=drive_link)
 
