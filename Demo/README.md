@@ -30,10 +30,10 @@ Before running the demo ensure that the following applications are installed:
 ### Notes about the csv files
 
 We provide two csv files for testing the model:
-1. “Demo_test_dataset.csv” contains 3 columns. Columns Title and Desc contain the title of the report and description of the report in text format, respectively. Column MedDRA contains the annotated label of the report (ground truth) also in text format.
-2. “Demo_test_dataset_without_labels.csv” is identical to the first one but does not contain the column MedDRA.
+1. “Demo_test_dataset.csv” contains 3 columns. Columns "Title" and "Desc" contain the title of the report and description of the report in text format, respectively. Column MedDRA contains the annotated label of the report (ground truth) also in text format.
+2. “Demo_test_dataset_without_labels.csv” is identical to the first one but does not contain the column "MedDRA".
 
-If you want to test your own dataset, you need to provide your reports in the same format with the same column names. Columns Title and Desc are mandatory as they are required to generate the input for the model. Column MedDRA is optional. If present, this column is displayed along with the model predictions for reference. If not present, only the model predictions are displayed.
+If you want to test your own dataset, you need to provide your reports in the same format with the same column names. Columns "Title" and "Desc" are mandatory as they are required to generate the input for the model. Column "MedDRA" is optional. If present, this column is displayed along with the model predictions for reference. If not present, only the model predictions are displayed.
 
 
 ## Inference
