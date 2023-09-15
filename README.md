@@ -39,9 +39,9 @@ username: med.product.defect@gmail.com
 password: dna1234!@
 
 
-## Demo for testing
+# Demo for testing
 
-Demo script is provided in Demo file. Please see the details in that file and follow the guide to run the scripts.
+Demo scripts and test datasets have been provided (15-Sep-2023) in the Demo folder. Please refert to the Readme.md file of that folder for more details and follow the instruction in the guide to run the scripts and reproduce the results.
 
 
 
