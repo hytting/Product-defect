@@ -46,7 +46,7 @@ python Demo_Inference.py
 ```
 3. The script will ask whether the input is a single report or a batch of reports. Enter <T> for single or <F> for batch:
 
-<img width="500" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/35d602bd-be98-4d18-90bc-a54307f8196d">
+<img width="1500" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/35d602bd-be98-4d18-90bc-a54307f8196d">
 
 
 4. Next the script will ask for the name of the output file. Provide a name without blank spaces and without extension, as shown below. By default, the output file will be saved in the “results” directory with csv format.
