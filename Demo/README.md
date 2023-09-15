@@ -163,6 +163,7 @@ Once the input data is passed to the system, the script will load the model and 
 By default, when the html file is opened, the tool will highlight the class label with the highest confidence score along with the plain text for each report (title plus description). To view the gradient map and the force plot for each report, hover the mouse over the list of class labels and click on the highlighted one. You can also view the gradient map and the force plot for other classes with lower confidence by hovering over the list of possible classes and selecting the desired one.
 
 We have run and stored the test results of three different interpretability analysis use-cases in the “results” subfolder of the repository for reference. The use cases include:
+
 - “Shap_1_1.html”: Interpretability on a single report as illustrated in step 4a.
 - “Shap_2a_1.html”: Interpretability on a batch of reports with an invalid path as illustrated in step 4b invalid path. The default path to <./data/Demo_test_dataset.csv> is used.
 - “Shap_2b_1.html”: Interpretability on a batch of reports with a valid path as illustrated in step 4b valid path.
