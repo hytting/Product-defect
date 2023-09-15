@@ -51,18 +51,18 @@ python Demo_Inference.py
 
 4. Next the script will ask for the name of the output file. Provide a name without blank spaces and without extension, as shown below. By default, the output file will be saved in the “results” directory with csv format.
 
-<img width="864" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/581deba3-3d40-4a13-8e27-12b08391758b">
+<img width="2500" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/581deba3-3d40-4a13-8e27-12b08391758b">
 
 
 - 4a. If a single report is selected in 2, the script will sequentially ask for the Title and the Description of the report. Copy and paste the Title and Description of the report as shown below:
 
-<img width="857" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/5066c7dd-ee2c-4458-a75f-4e64eea16188">
+<img width="2500" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/5066c7dd-ee2c-4458-a75f-4e64eea16188">
 
 ```bash
 The Therapeutic Goods Administration (TGA) has tested a product labelled The Rock and found that it contains the undeclared substances sulfosildenafil and hydroxyhomothiosildenafil an analogue of sildenafil.
 ```
 
-<img width="859" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/f384f8bc-7e83-4489-9831-712dc988b60c">
+<img width="2500" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/f384f8bc-7e83-4489-9831-712dc988b60c">
 
 ```bash
 Safety advisory TGA has tested a product labelled The Rock and found that: ?€?it contains the undeclared substances sulfosildenafil and hydroxyhomothiosildenafil an analogue of sildenafil. ?€?consumers are advised that both hydroxyhomothiosildenafil and sulfosildenafil are prescription-only medicines. The supply of The Rock capsules is illegal. The Rock capsules have not been assessed by the TGA for quality, safety or efficacy as required under Australian legislation, and the place of manufacture is not approved by the TGA. TGA investigations have shown that a number of people in Australia have bought the product online.
@@ -75,23 +75,24 @@ Safety advisory TGA has tested a product labelled The Rock and found that: ?€?
 ./data/Demo_test_dataset.csv
 ```
 
-<img width="859" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/9ea945d6-76e6-4b8f-afae-0ead6525efd1">
+<img width="2500" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/9ea945d6-76e6-4b8f-afae-0ead6525efd1">
 
 ```bash
 # invalid path
 Demo_test_dataset
 ```
 
-<img width="857" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/eb18e87d-a8b7-4d4c-af0e-d277fe6ba626">
+<img width="2500" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/eb18e87d-a8b7-4d4c-af0e-d277fe6ba626">
 
 
 5. Output:
 Once the input data is passed to the system, the script will load the model and perform inference on the report/s provided. After execution, the script will display the predicted class for each input report along with its confidence score. The script will display the results in one of the two formats shown below:
-If a single record was selected:
+
+- If a single record was selected:
 
 ![image](https://github.com/hytting/Product-defect/assets/93244335/8576bc56-9043-40b3-82f3-22c6832d4b02)
 
-If a batch of records was selected:
+- If a batch of records was selected:
 
 ![image](https://github.com/hytting/Product-defect/assets/93244335/89da3989-a0f0-4fbf-8e63-5d94b104e1e1)
 
@@ -115,19 +116,19 @@ python Demo_Shap.py
 ```
 
 3. The script will ask whether the input is a single report or a batch of reports. Enter <T> for single or <F> for batch:
-<img width="866" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/cfb4a6a0-1e98-4cc1-bf8c-3d1f7ab9ca20">
+<img width="2500" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/cfb4a6a0-1e98-4cc1-bf8c-3d1f7ab9ca20">
 
 
 4. Next the script will ask for the name of the output file. Provide a name without blank spaces and without extension, as shown below. By default, the output file will be saved in the “results” directory with html format.
-<img width="869" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/9d8a7585-dbee-4e27-80b7-e03f1aaec773">
+<img width="2500" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/9d8a7585-dbee-4e27-80b7-e03f1aaec773">
 
 - 4a. If a single report is selected in 2, the script will sequentially ask for the Title and the Description of the report. Copy and paste the Title and Description of the report as shown below:
-<img width="870" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/b7c5d82a-221a-4eca-821b-53cbee3c022e">
+<img width="2500" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/b7c5d82a-221a-4eca-821b-53cbee3c022e">
 
 ```bash
 The Therapeutic Goods Administration (TGA) has tested a product labelled The Rock and found that it contains the undeclared substances sulfosildenafil and hydroxyhomothiosildenafil an analogue of sildenafil.
 ```
-<img width="865" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/fde8f06b-88cf-4df2-a837-2783b6556cee">
+<img width="2500" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/fde8f06b-88cf-4df2-a837-2783b6556cee">
 
 ```bash
 Safety advisory TGA has tested a product labelled The Rock and found that: ?€?it contains the undeclared substances sulfosildenafil and hydroxyhomothiosildenafil an analogue of sildenafil. ?€?consumers are advised that both hydroxyhomothiosildenafil and sulfosildenafil are prescription-only medicines. The supply of The Rock capsules is illegal. The Rock capsules have not been assessed by the TGA for quality, safety or efficacy as required under Australian legislation, and the place of manufacture is not approved by the TGA. TGA investigations have shown that a number of people in Australia have bought the product online.
@@ -139,13 +140,13 @@ Safety advisory TGA has tested a product labelled The Rock and found that: ?€?
 # valid path
  ./data/Demo_test_dataset.csv
 ```
-<img width="869" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/9670b62b-e207-4f09-9d42-745abffc104d">
+<img width="2500" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/9670b62b-e207-4f09-9d42-745abffc104d">
 
 ```bash
 # invalid path
 Demo_test_dataset
 ```
-<img width="721" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/f20e85dd-ea17-49f3-8fb9-f1bec0653b2a">
+<img width="2500" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/f20e85dd-ea17-49f3-8fb9-f1bec0653b2a">
 
 
 5. Output:
