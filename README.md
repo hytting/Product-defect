@@ -38,9 +38,10 @@ The models weights are stored in Google Drive and can be accessed with the follo
 username: med.product.defect@gmail.com
 password: dna1234!@
 
+
 ## Demo for testing
 
-A demo script will be provided in this repository by 15 Sep 2023.
+Demo script is provided in Demo file. Please see the details in that file and follow the guide to run the scripts.
 
 
 
