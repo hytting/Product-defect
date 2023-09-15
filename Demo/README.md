@@ -47,19 +47,25 @@ python Demo_Inference.py
 3. The script will ask whether the input is a single report or a batch of reports. Enter <T> for single or <F> for batch:
 <img width="857" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/35d602bd-be98-4d18-90bc-a54307f8196d">
 
+
 4. Next the script will ask for the name of the output file. Provide a name without blank spaces and without extension, as shown below. By default, the output file will be saved in the “results” directory with csv format.
 <img width="864" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/581deba3-3d40-4a13-8e27-12b08391758b">
 
+
 - 4a. If a single report is selected in 2, the script will sequentially ask for the Title and the Description of the report. Copy and paste the Title and Description of the report as shown below:
 <img width="857" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/5066c7dd-ee2c-4458-a75f-4e64eea16188">
+
 ```bash
 The Therapeutic Goods Administration (TGA) has tested a product labelled The Rock and found that it contains the undeclared substances sulfosildenafil and hydroxyhomothiosildenafil an analogue of sildenafil.
 ```
 <img width="859" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/f384f8bc-7e83-4489-9831-712dc988b60c">
+
 ```bash
 Safety advisory TGA has tested a product labelled The Rock and found that: ?€?it contains the undeclared substances sulfosildenafil and hydroxyhomothiosildenafil an analogue of sildenafil. ?€?consumers are advised that both hydroxyhomothiosildenafil and sulfosildenafil are prescription-only medicines. The supply of The Rock capsules is illegal. The Rock capsules have not been assessed by the TGA for quality, safety or efficacy as required under Australian legislation, and the place of manufacture is not approved by the TGA. TGA investigations have shown that a number of people in Australia have bought the product online.
 ```
+
 - 4b. If a batch of reports is selected in 2, the script will ask for the path to the csv file containing the batch of the reports. Enter a valid path such as <./data/Demo_test_dataset_without_labels.csv> as shown below. If an invalid path is entered, the script will use the default path <./data/Demo_test_dataset.csv> to the test dataset containing labels (ground truth).
+
 ```bash
 # valid path
 ./data/Demo_test_dataset.csv
@@ -104,19 +110,24 @@ python Demo_Shap.py
 3.The script will ask whether the input is a single report or a batch of reports. Enter <T> for single or <F> for batch:
 <img width="866" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/cfb4a6a0-1e98-4cc1-bf8c-3d1f7ab9ca20">
 
+
 4. Next the script will ask for the name of the output file. Provide a name without blank spaces and without extension, as shown below. By default, the output file will be saved in the “results” directory with html format.
 <img width="869" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/9d8a7585-dbee-4e27-80b7-e03f1aaec773">
 
 - 4a. If a single report is selected in 2, the script will sequentially ask for the Title and the Description of the report. Copy and paste the Title and Description of the report as shown below:
 <img width="870" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/b7c5d82a-221a-4eca-821b-53cbee3c022e">
+
 ```bash
 The Therapeutic Goods Administration (TGA) has tested a product labelled The Rock and found that it contains the undeclared substances sulfosildenafil and hydroxyhomothiosildenafil an analogue of sildenafil.
 ```
 <img width="865" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/fde8f06b-88cf-4df2-a837-2783b6556cee">
+
 ```bash
 Safety advisory TGA has tested a product labelled The Rock and found that: ?€?it contains the undeclared substances sulfosildenafil and hydroxyhomothiosildenafil an analogue of sildenafil. ?€?consumers are advised that both hydroxyhomothiosildenafil and sulfosildenafil are prescription-only medicines. The supply of The Rock capsules is illegal. The Rock capsules have not been assessed by the TGA for quality, safety or efficacy as required under Australian legislation, and the place of manufacture is not approved by the TGA. TGA investigations have shown that a number of people in Australia have bought the product online.
 ```
+
 - 4b. If a batch of reports is selected in 2, the script will ask for the path to the csv file containing the batch of the reports. Enter a valid path such as <./data/Demo_test_dataset_without_labels.csv> as shown below. If an invalid path is entered, the script will use the default path <./data/Demo_test_dataset.csv> to the test dataset containing labels (ground truth).
+
 ```bash
 # valid path
  ./data/Demo_test_dataset.csv
