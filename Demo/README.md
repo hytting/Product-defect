@@ -12,7 +12,8 @@ Follow the provided instructions step by step in order to reproduce the provided
 The following Demo can be run on a Windows 7 and above Operating System. The Demo runs faster in a GPU enabled machine. 
 However, it can be run on a machine without GPU. Add logit in script: 
 ```bash
-if not GPU: os.environ = [‘-1’]
+if not GPU:
+  os.environ = [‘-1’]
 ```
 
 Before running the demo ensure that the following applications are installed:
@@ -30,9 +31,9 @@ Before running the demo ensure that the following applications are installed:
 7. If the repository is not cloned, create a subfolder named “results” and (optionally) copy the csv files from the same folder in the repository. If the repository is cloned, the folder with the datasets will be automatically created. This folder contains the results of the test runs for reference. Additional test runs will store the results in this folder, with a user provided output file name.
 
 
-#### Notes about the csv files
+### Notes about the csv files
 
-We provide 2 csv files for testing the model:
+We provide two csv files for testing the model:
 1. “Demo_test_dataset.csv” contains 3 columns. Columns Title and Desc contain the title of the report and description of the report in text format. Column MedDRA contains the annotated label of the report (ground truth) also in text format.
 2. “Demo_test_dataset_without_labels.csv” is identical to the first one but does not contain the column MedDRA.
 
@@ -65,19 +66,23 @@ Please provide the case Description:
 ```
   4b. If a batch of reports is selected in 2, the script will ask for the path to the csv file containing the batch of the reports. Enter a valid path such as <./data/Demo_test_dataset_without_labels.csv> as shown below. If an invalid path is entered, the script will use the default path <./data/Demo_test_dataset.csv> to the test dataset containing labels (ground truth).
 ```bash
+# valid path
 Please enter the path to the CSV dataset.
 If no valid path is provided the default dataset will be used: ./data/Demo_test_dataset.csv
 ```
 ```bash
+# invalid path
 Please enter the path to the CSV dataset.
 If no valid path is provided the default dataset will be used: Demo_test_dataset
 ```
 
 Once the input data is passed to the system, the script will load the model and perform inference on the report/s provided. After execution, the script will display the predicted class for each input report along with its confidence score. The script will display the results in one of the two formats shown below:
 If a single record was selected:
+
 ![image](https://github.com/hytting/Product-defect/assets/93244335/8576bc56-9043-40b3-82f3-22c6832d4b02)
 
 If a batch of records was selected:
+
 ![image](https://github.com/hytting/Product-defect/assets/93244335/89da3989-a0f0-4fbf-8e63-5d94b104e1e1)
 
 The results are also saved in a csv file with the name provided by the user in the “results” folder.
@@ -114,10 +119,12 @@ Please provide the case Description:
 ```
 4b. If a batch of reports is selected in 2, the script will ask for the path to the csv file containing the batch of the reports. Enter a valid path such as <./data/Demo_test_dataset_without_labels.csv> as shown below. If an invalid path is entered, the script will use the default path <./data/Demo_test_dataset.csv> to the test dataset containing labels (ground truth).
 ```bash
+# valid path
 Please enter the path to the CSV dataset.
 If no valid path is provided the default dataset will be used: ./data/Demo_test_dataset.csv
 ```
 ```bash
+# invalid path
 Please enter the path to the CSV dataset.
 If no valid path is provided the default dataset will be used: Demo_test_dataset
 ```
@@ -126,8 +133,10 @@ Once the input data is passed to the system, the script will load the model and 
 - If a single record was selected:
 <img width="1271" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/72fb7b31-1296-4b25-ac2b-a6daf5e46543">
 
+
 - If a batch of records was selected:
 <img width="1261" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/ecbabbdb-5a43-4631-957d-f9724e4b2d8b">
+
 
 
 By default, each input record will highlight the highest confidence class, and also shows case title + description. The gradient map and the force plot for the class with the confidence for each record will be shown when related label is chosen by click. You can view the gradient map and the force plot for other classes with lower confidence by hovering over the list of possible classes and selecting the desired one.
