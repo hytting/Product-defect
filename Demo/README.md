@@ -45,19 +45,23 @@ To run the script “Demo_Inference.py” for inference follow these steps:
 python Demo_Inference.py
 ```
 3. The script will ask whether the input is a single report or a batch of reports. Enter <T> for single or <F> for batch:
+
 <img width="857" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/35d602bd-be98-4d18-90bc-a54307f8196d">
 
 
 4. Next the script will ask for the name of the output file. Provide a name without blank spaces and without extension, as shown below. By default, the output file will be saved in the “results” directory with csv format.
+
 <img width="864" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/581deba3-3d40-4a13-8e27-12b08391758b">
 
 
 - 4a. If a single report is selected in 2, the script will sequentially ask for the Title and the Description of the report. Copy and paste the Title and Description of the report as shown below:
+
 <img width="857" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/5066c7dd-ee2c-4458-a75f-4e64eea16188">
 
 ```bash
 The Therapeutic Goods Administration (TGA) has tested a product labelled The Rock and found that it contains the undeclared substances sulfosildenafil and hydroxyhomothiosildenafil an analogue of sildenafil.
 ```
+
 <img width="859" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/f384f8bc-7e83-4489-9831-712dc988b60c">
 
 ```bash
@@ -70,16 +74,18 @@ Safety advisory TGA has tested a product labelled The Rock and found that: ?€?
 # valid path
 ./data/Demo_test_dataset.csv
 ```
+
 <img width="859" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/9ea945d6-76e6-4b8f-afae-0ead6525efd1">
 
 ```bash
 # invalid path
 Demo_test_dataset
 ```
+
 <img width="857" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/eb18e87d-a8b7-4d4c-af0e-d277fe6ba626">
 
 
-
+5. Output:
 Once the input data is passed to the system, the script will load the model and perform inference on the report/s provided. After execution, the script will display the predicted class for each input report along with its confidence score. The script will display the results in one of the two formats shown below:
 If a single record was selected:
 
@@ -107,7 +113,8 @@ To run the script “Demo_Shap.py” for interpretability analysis follow these 
 ```bash
 python Demo_Shap.py
 ```
-3.The script will ask whether the input is a single report or a batch of reports. Enter <T> for single or <F> for batch:
+
+3. The script will ask whether the input is a single report or a batch of reports. Enter <T> for single or <F> for batch:
 <img width="866" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/cfb4a6a0-1e98-4cc1-bf8c-3d1f7ab9ca20">
 
 
@@ -141,7 +148,7 @@ Demo_test_dataset
 <img width="721" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/f20e85dd-ea17-49f3-8fb9-f1bec0653b2a">
 
 
-
+5. Output:
 Once the input data is passed to the system, the script will load the model and perform interpretability analysis on the report(s) provided. After execution, the script will save the results in an interactive html file with the name provided by the user in “results” folder. Open the html file to review the results of the interpretability analysis, as shown below:
 - If a single record was selected:
 <img width="1277" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/2dfb8e9e-d032-4120-b9c0-e0c18a4fa58a">
