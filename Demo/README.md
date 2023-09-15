@@ -143,6 +143,6 @@ By default, each input record will highlight the highest confidence class, and a
 
 We have run and stored the test results of three different interpretability analysis use-cases in the “results” subfolder of the repository for reference. The use cases include:
 1. Interpretability on a single report as illustrated in step 4a. The results are saved in the file “Shap_1_1.csv” in the “results” folder.
-2a. Interpretability on a batch of reports with an invalid path as illustrated in step 4b invalid path. The default path to <./data/Demo_test_dataset.csv> is used. The results are saved in the file “Shap_2a_1.csv” in the “results” folder.
-2b. Interpretability on a batch of reports with a valid path as illustrated in step 4b valid path. The results are saved in the file “Shap_2b_1.csv” in the “results” folder.
+   2a. Interpretability on a batch of reports with an invalid path as illustrated in step 4b invalid path. The default path to <./data/Demo_test_dataset.csv> is used. The results are saved in the file “Shap_2a_1.csv” in the “results” folder.
+  2b. Interpretability on a batch of reports with a valid path as illustrated in step 4b valid path. The results are saved in the file “Shap_2b_1.csv” in the “results” folder.
 
