@@ -1,4 +1,4 @@
-This is the official repository for the paper "Classification of health product defects by deep learning".
+This is the official repository for the paper "Classification of health product defect reports by deep learning".
 
 # Getting Started
 
@@ -29,14 +29,9 @@ The pipeline includes the following components:
 
 ## Model
 
-Two models weights are saved [here](https://drive.google.com/drive/folders/1wqiBd_-5pn3tRm5W27kZlB9wztk41F5U?usp=drive_link):
-1. Bert-based fine-tuning model: [MedDefects-BERT](https://drive.google.com/drive/folders/1AI7sttjr67IcwaFA0Z0XHyA8BnSCAOej?usp=drive_link)
-2. Weight of Bert-based join-tuning model: [MedDefects-DPT-BERT](https://drive.google.com/file/d/1bm-D33-vFT0ArKTxsF1hXAsLXDaXNX-U/view?usp=drive_link)
-
-The models weights are stored in Google Drive and can be accessed with the following credentials:
-
-username: med.product.defect@gmail.com
-password: dna1234!@
+The two model weights can be accessed and downloaded from [this link](https://drive.google.com/drive/folders/1wqiBd_-5pn3tRm5W27kZlB9wztk41F5U?usp=drive_link):
+1. Bert-base fine-tuned model: [MedDefects-BERT](https://drive.google.com/drive/folders/1AI7sttjr67IcwaFA0Z0XHyA8BnSCAOej?usp=drive_link)
+2. Bert-base deep-prompt-tuned model: [MedDefects-DPT-BERT](https://drive.google.com/file/d/1bm-D33-vFT0ArKTxsF1hXAsLXDaXNX-U/view?usp=drive_link)
 
 
 # Demo for testing the software
