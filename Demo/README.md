@@ -46,16 +46,14 @@ python Demo_Inference.py
 ```
 3. The script will ask whether the input is a single report or a batch of reports. Enter "T" for single or "F" for batch:
 
-<img width="2500" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/35d602bd-be98-4d18-90bc-a54307f8196d">
+![image](https://github.com/hytting/Product-defect/assets/93244335/f5c29b2c-fe93-4183-bb04-6150c86614f1)
 
 
-4. Next, the script will ask for the name of the output file. Provide a name without blank spaces and without extension, as shown below. By default, the output file will be saved in the “results” directory with csv format.
-
+5. Next, the script will ask for the name of the output file. Provide a name without blank spaces and without extension, as shown below. By default, the output file will be saved in the “results” directory with csv format.
 <img width="2500" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/581deba3-3d40-4a13-8e27-12b08391758b">
 
 
 - 4a. If a single report is selected in 2, the script will sequentially ask for the Title and the Description of the report. Copy and paste the Title and Description of the report as shown below:
-
 <img width="2500" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/5066c7dd-ee2c-4458-a75f-4e64eea16188">
 
 ```bash
@@ -116,10 +114,11 @@ python Demo_Shap.py
 ```
 
 3. The script will ask whether the input is a single report or a batch of reports. Enter "T" for single or "F" for batch:
-<img width="2500" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/cfb4a6a0-1e98-4cc1-bf8c-3d1f7ab9ca20">
+
+![image](https://github.com/hytting/Product-defect/assets/93244335/89cd51ff-7fa6-4122-b2dc-cd85b2726cb6)
 
 
-4. Next, the script will ask for the name of the output file. Provide a name without blank spaces and without extension, as shown below. By default, the output file will be saved in the “results” directory with html format.
+5. Next, the script will ask for the name of the output file. Provide a name without blank spaces and without extension, as shown below. By default, the output file will be saved in the “results” directory with html format.
 <img width="2500" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/9d8a7585-dbee-4e27-80b7-e03f1aaec773">
 
 - 4a. If a single report is selected in 2, the script will sequentially ask for the Title and the Description of the report. Copy and paste the Title and Description of the report as shown below:
