@@ -91,7 +91,7 @@ class Demo:
         
         explainer = shap.Explainer(f, self.tokenizer, output_names = self.labels)
         ds_test  = Dataset.from_pandas(self.df)
-        print('Generating  SHAP textplot...')
+        print('Generating SHAP textplot...')
         shap_value = explainer(ds_test[:])
         
         with open(f'./results/{output_name}.html','w',encoding = 'utf-8') as file:
@@ -114,7 +114,7 @@ def main():
     7. Generate shap textplots and save the results
     """
 
-    single_case = input('Is the test data a single case (T/F)?\nIf F is selected a csv file with a batch os cases is expected: ')
+    single_case = input('Is the test data a single case (T/F)?\nIf F is selected a csv file with a batch of cases is expected: ')
     if single_case in ['T','t']:
         output_name = input('Please enter the name of the output shap textplot file (without blank spaces): ')
         title = input('Please provide the case Title: ')
