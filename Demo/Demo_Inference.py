@@ -128,15 +128,15 @@ def main():
     
     1. Check whether the input data is a single report or a batch
     2. Request for the name of the output file to save the results
-    3.a If the input data is a single report, request the report Title and Description from user
-    3.b If the input data is a batch of reports, request for the path to the csv file containing the reports
+    3a. If the input data is a single report, request the report Title and Description from user
+    3b. If the input data is a batch of reports, request for the path to the csv file containing the reports
     4. Instantiate the Inference Class by creating an object of the Class
     5. Load input data and apply pre-processing on text
     6. Load model and associated artifacts
     7. Generate model predictions, display and save the results
     """
     
-    single_case = input('Is the test data a single case (T/F)?\nIf F is selected a csv file with a batch os cases is expected: ')
+    single_case = input('Is the test data a single case (T/F)?\nIf F is selected a csv file with a batch of cases is expected: ')
     if single_case in ['T','t']:
         output_name = input('Please enter the name of the output prediction file (without blank spaces): ')
         title = input('Please provide the case Title: ')
