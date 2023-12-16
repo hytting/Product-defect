@@ -49,7 +49,7 @@ python Demo_Inference.py
 ![image](https://github.com/hytting/Product-defect/assets/93244335/f5c29b2c-fe93-4183-bb04-6150c86614f1)
 
 
-5. Next, the script will ask for the name of the output file. Provide a name without blank spaces and without extension, as shown below. By default, the output file will be saved in the “results” directory with csv format.
+4. Next, the script will ask for the name of the output file. Provide a name without blank spaces and without extension, as shown below. By default, the output file will be saved in the “results” directory with csv format.
 <img width="2500" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/581deba3-3d40-4a13-8e27-12b08391758b">
 
 
