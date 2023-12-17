@@ -53,7 +53,7 @@ python Demo_Inference.py
 <img width="2500" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/581deba3-3d40-4a13-8e27-12b08391758b">
 
 
-- 4a. If a single report is selected in 2, the script will sequentially ask for the Title and the Description of the report. Copy and paste the Title and Description of the report as shown below:
+- 4a. If a single report is selected in 3, the script will sequentially ask for the Title and the Description of the report. Copy and paste the Title and Description of the report as shown below:
 <img width="2500" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/5066c7dd-ee2c-4458-a75f-4e64eea16188">
 
 ```bash
