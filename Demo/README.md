@@ -118,10 +118,10 @@ python Demo_Shap.py
 ![image](https://github.com/hytting/Product-defect/assets/93244335/89cd51ff-7fa6-4122-b2dc-cd85b2726cb6)
 
 
-5. Next, the script will ask for the name of the output file. Provide a name without blank spaces and without extension, as shown below. By default, the output file will be saved in the “results” directory with html format.
+4. Next, the script will ask for the name of the output file. Provide a name without blank spaces and without extension, as shown below. By default, the output file will be saved in the “results” directory with html format.
 <img width="2500" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/9d8a7585-dbee-4e27-80b7-e03f1aaec773">
 
-- 4a. If a single report is selected in 2, the script will sequentially ask for the Title and the Description of the report. Copy and paste the Title and Description of the report as shown below:
+- 4a. If a single report is selected in 3, the script will sequentially ask for the Title and the Description of the report. Copy and paste the Title and Description of the report as shown below:
 <img width="2500" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/b7c5d82a-221a-4eca-821b-53cbee3c022e">
 
 ```bash
@@ -133,7 +133,7 @@ The Therapeutic Goods Administration (TGA) has tested a product labelled The Roc
 Safety advisory TGA has tested a product labelled The Rock and found that: ?€?it contains the undeclared substances sulfosildenafil and hydroxyhomothiosildenafil an analogue of sildenafil. ?€?consumers are advised that both hydroxyhomothiosildenafil and sulfosildenafil are prescription-only medicines. The supply of The Rock capsules is illegal. The Rock capsules have not been assessed by the TGA for quality, safety or efficacy as required under Australian legislation, and the place of manufacture is not approved by the TGA. TGA investigations have shown that a number of people in Australia have bought the product online.
 ```
 
-- 4b. If a batch of reports is selected in 2, the script will ask for the path to the csv file containing the batch of the reports. Enter a valid path such as <./data/Demo_test_dataset_without_labels.csv> as shown below. If an invalid path is entered, the script will use the default path <./data/Demo_test_dataset.csv> to the test dataset containing labels (ground truth).
+- 4b. If a batch of reports is selected in 3, the script will ask for the path to the csv file containing the batch of the reports. Enter a valid path such as <./data/Demo_test_dataset_without_labels.csv> as shown below. If an invalid path is entered, the script will use the default path <./data/Demo_test_dataset.csv> to the test dataset containing labels (ground truth).
 
 ```bash
 # valid path
