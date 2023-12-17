@@ -66,7 +66,7 @@ The Therapeutic Goods Administration (TGA) has tested a product labelled The Roc
 Safety advisory TGA has tested a product labelled The Rock and found that: ?€?it contains the undeclared substances sulfosildenafil and hydroxyhomothiosildenafil an analogue of sildenafil. ?€?consumers are advised that both hydroxyhomothiosildenafil and sulfosildenafil are prescription-only medicines. The supply of The Rock capsules is illegal. The Rock capsules have not been assessed by the TGA for quality, safety or efficacy as required under Australian legislation, and the place of manufacture is not approved by the TGA. TGA investigations have shown that a number of people in Australia have bought the product online.
 ```
 
-- 4b. If a batch of reports is selected in 2, the script will ask for the path to the csv file containing the batch of the reports. Enter a valid path such as <./data/Demo_test_dataset_without_labels.csv> as shown below. If an invalid path is entered, the script will use the default path <./data/Demo_test_dataset.csv> to the test dataset containing labels (ground truth).
+- 4b. If a batch of reports is selected in 3, the script will ask for the path to the csv file containing the batch of the reports. Enter a valid path such as <./data/Demo_test_dataset_without_labels.csv> as shown below. If an invalid path is entered, the script will use the default path <./data/Demo_test_dataset.csv> to the test dataset containing labels (ground truth).
 
 ```bash
 # valid path
