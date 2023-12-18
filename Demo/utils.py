@@ -1,0 +1,48 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+ID2LABEL = {0: 'Accompanying dose delivery device issue',
+                 1: 'Advertisement non-compliance',
+                 2: 'Contamination with chemical substance',
+                 3: 'Contamination with foreign matter',
+                 4: 'Contamination with glass and/or metal particle',
+                 5: 'Contamination with microbes',
+                 6: 'Lack of efficacy',
+                 7: 'Manufacturing non-compliance',
+                 8: 'Out of specification or out of trend test result',
+                 9: 'Product adulterated and/or contains prohibited substance',
+                 10: 'Product counterfeit',
+                 11: 'Product deposit',
+                 12: 'Product expiration date missing, illegible or incorrect',
+                 13: 'Product formulation issue',
+                 14: 'Product label issue impacting strength, dose and/or safety',
+                 15: 'Product label/leaflet issues NOT impacting strength, dose and/or safety',
+                 16: 'Product leaflet issue impacting strength, dose and/or safety',
+                 17: 'Product mix up',
+                 18: 'Product physical issue',
+                 19: 'Product primary packaging issue',
+                 20: 'Product unregistered'}
+
+LABEL2ID = {'Accompanying dose delivery device issue':0,
+                    'Advertisement non-compliance':1,
+                    'Contamination with chemical substance':2,
+                    'Contamination with foreign matter':3,
+                    'Contamination with glass and/or metal particle':4,
+                    'Contamination with microbes':5,
+                    'Lack of efficacy':6,
+                    'Manufacturing non-compliance':7,
+                    'Out of specification or out of trend test result':8,
+                    'Product adulterated and/or contains prohibited substance':9,
+                    'Product counterfeit':10,
+                    'Product deposit':11,
+                    'Product expiration date missing, illegible or incorrect':12,
+                    'Product formulation issue':13,
+                    'Product label issue impacting strength, dose and/or safety':14,
+                    'Product label/leaflet issues NOT impacting strength, dose and/or safety':15,
+                    'Product leaflet issue impacting strength, dose and/or safety':16,
+                    'Product mix up':17,
+                    'Product physical issue':18,
+                    'Product primary packaging issue':19,
+                    'Product unregistered':20}
+
+PATTERN = r"(\s*\bwww\.[^\s]+\s*)|(\s*\bhttps+:[^\s]+\s*)|(\s*\bnote:[^\.]*\.)|(\s*\b[^\s]+@[^\s]+\s*)|(\s*\b[^\s]+\.com[^\.]*\.)|(\s*\btel\b[\:\s\+]*[\d\s]*[\s\.]*)|(\s*\btelephone\b[\:\s\+]*[\d\s]*[\s\.]*)|(\(*truncated\)*.*)|([_=\*]+)"
