@@ -21,7 +21,7 @@ Before running the demo ensure that the following applications are installed:
 
 1. Open an anaconda prompt terminal, create an environment for this Demo with python version 3.7.15, and install the packages specified in the requirements.txt file.
 2. Create a folder in your local machine where the code, the model weights, and the test datasets of this Demo will be copied.
-3. Navigate to the Demo folder and clone this repository or copy the scripts “Demo_Inference.py”  and “Demo_Shape.py” in the working directory.
+3. Navigate to the Demo folder and clone this repository or copy the scripts "Demo_Inference.py", "Demo_Shape.py" and "utils.py" in the working directory.
 4. Create a subfolder named “models” in the Demo directory and download on it the weights of the MedDefects-BERT model from this [link](https://drive.google.com/drive/folders/1wqiBd_-5pn3tRm5W27kZlB9wztk41F5U?usp=drive_link). Unzip the file inside the models subfolder. The model weights and configuration will be located in a subfolder named “MedDefects-BERT” in the “models” folder.
 5. If the repository is not cloned, create a subfolder named “data” and copy on it the csv files “Demo_test_dataset.csv” and “Demo_test_dataset_without_labels.csv” containing the test datasets. If the repository is cloned, the folder with the datasets will be automatically created.
 6. If the repository is not cloned, create a subfolder named “results” and (optionally) copy on it the csv files from the results.rar file located in the "results" folder of the repository. If the repository is cloned, the folder with the datasets will be automatically created. This folder contains the results of our test runs as reference. Additional test runs will store the results in this folder, with a user provided output file name.
@@ -63,7 +63,7 @@ The Therapeutic Goods Administration (TGA) has tested a product labelled The Roc
 <img width="2500" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/f384f8bc-7e83-4489-9831-712dc988b60c">
 
 ```bash
-Safety advisory TGA has tested a product labelled The Rock and found that: ?€?it contains the undeclared substances sulfosildenafil and hydroxyhomothiosildenafil an analogue of sildenafil. ?€?consumers are advised that both hydroxyhomothiosildenafil and sulfosildenafil are prescription-only medicines. The supply of The Rock capsules is illegal. The Rock capsules have not been assessed by the TGA for quality, safety or efficacy as required under Australian legislation, and the place of manufacture is not approved by the TGA. TGA investigations have shown that a number of people in Australia have bought the product online.
+Safety advisory TGA has tested a product labelled The Rock and found that: contains the undeclared substances sulfosildenafil and hydroxyhomothiosildenafil an analogue of sildenafil. Consumers are advised that both hydroxyhomothiosildenafil and sulfosildenafil are prescription-only medicines. The supply of The Rock capsules is illegal. The Rock capsules have not been assessed by the TGA for quality, safety or efficacy as required under Australian legislation, and the place of manufacture is not approved by the TGA. TGA investigations have shown that a number of people in Australia have bought the product online.
 ```
 
 - 4b. If a batch of reports is selected in 3, the script will ask for the path to the csv file containing the batch of the reports. Enter a valid path such as <./data/Demo_test_dataset_without_labels.csv> as shown below. If an invalid path is entered, the script will use the default path <./data/Demo_test_dataset.csv> to the test dataset containing labels (ground truth).
@@ -88,11 +88,13 @@ Once the input data is passed to the system, the script will load the model and 
 
 - If a single record was selected:
 
-![image](https://github.com/hytting/Product-defect/assets/93244335/8576bc56-9043-40b3-82f3-22c6832d4b02)
+![inf_single_pred](https://github.com/hytting/Product-defect/assets/93244335/ffd4114b-02d3-4e7a-875c-4939a72d9694)
+
 
 - If a batch of records was selected:
 
-![image](https://github.com/hytting/Product-defect/assets/93244335/89da3989-a0f0-4fbf-8e63-5d94b104e1e1)
+![inf_batch_pred](https://github.com/hytting/Product-defect/assets/93244335/38d67e07-fb3e-4a0e-8ee6-47cf09ea0b88)
+
 
 
 
@@ -130,7 +132,7 @@ The Therapeutic Goods Administration (TGA) has tested a product labelled The Roc
 <img width="2500" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/fde8f06b-88cf-4df2-a837-2783b6556cee">
 
 ```bash
-Safety advisory TGA has tested a product labelled The Rock and found that: ?€?it contains the undeclared substances sulfosildenafil and hydroxyhomothiosildenafil an analogue of sildenafil. ?€?consumers are advised that both hydroxyhomothiosildenafil and sulfosildenafil are prescription-only medicines. The supply of The Rock capsules is illegal. The Rock capsules have not been assessed by the TGA for quality, safety or efficacy as required under Australian legislation, and the place of manufacture is not approved by the TGA. TGA investigations have shown that a number of people in Australia have bought the product online.
+Safety advisory TGA has tested a product labelled The Rock and found that: contains the undeclared substances sulfosildenafil and hydroxyhomothiosildenafil an analogue of sildenafil. Consumers are advised that both hydroxyhomothiosildenafil and sulfosildenafil are prescription-only medicines. The supply of The Rock capsules is illegal. The Rock capsules have not been assessed by the TGA for quality, safety or efficacy as required under Australian legislation, and the place of manufacture is not approved by the TGA. TGA investigations have shown that a number of people in Australia have bought the product online.
 ```
 
 - 4b. If a batch of reports is selected in 3, the script will ask for the path to the csv file containing the batch of the reports. Enter a valid path such as <./data/Demo_test_dataset_without_labels.csv> as shown below. If an invalid path is entered, the script will use the default path <./data/Demo_test_dataset.csv> to the test dataset containing labels (ground truth).
@@ -151,11 +153,15 @@ Demo_test_dataset
 5. Output:
 Once the input data is passed to the system, the script will load the model and perform interpretability analysis on the report(s) provided. After execution, the script will save the results in an interactive html file with the name provided by the user in the “results” folder. Open the html file to review the results of the interpretability analysis, as shown below:
 - If a single record was selected:
-<img width="1277" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/2dfb8e9e-d032-4120-b9c0-e0c18a4fa58a">
+<img width="1267" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/1e868a63-679f-4b9f-b602-af7fbee2b659">
+
 
 
 - If a batch of records was selected:
-<img width="1265" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/914d0b72-584b-4e28-9e91-642b32648c71">
+<img width="1260" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/acee3e2a-3e32-4225-8d4d-0f39187e8e67">
+<img width="1265" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/e750b9d3-24ea-4cbf-9595-0b1061509322">
+<img width="1256" alt="image" src="https://github.com/hytting/Product-defect/assets/93244335/81493c36-2724-4d4e-a84a-e8d65dba1d12">
+
 
 
 
